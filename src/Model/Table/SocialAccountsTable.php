@@ -81,9 +81,9 @@ class SocialAccountsTable extends Table
             ->requirePresence('reference', 'create')
             ->notEmpty('reference');
 
-        $validator
+        /*$validator
             ->requirePresence('link', 'create')
-            ->notEmpty('reference');
+            ->notEmpty('reference');*/
 
         $validator
             ->allowEmpty('avatar');
